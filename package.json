@@ -6,11 +6,16 @@
     "start": "next start"
   },
   "dependencies": {
+    "@linaria/core": "^4.1.2",
+    "@linaria/react": "^4.1.4",
+    "next-linaria": "^1.0.1-beta",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@linaria/babel-preset": "^4.3.2",
+    "@linaria/webpack-loader": "^4.1.10",
     "@types/node": "18.11.3",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
